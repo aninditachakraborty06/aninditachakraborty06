@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+
+# Environment 
+
+
+dist
+worksheetconveret.xlsx
+drug_20220301..xlsx
+*.sh

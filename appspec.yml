@@ -1,0 +1,14 @@
+file_exists_behavior: OVERWRITE
+files:
+ -  
+   destination: /home/ubuntu/tamira-backend-pg
+   source: /
+hooks:
+  ApplicationStop:
+    - location: scripts/stop.sh
+      runas: ubuntu
+  ApplicationStart:
+    - location: scripts/start.sh
+      runas: ubuntu
+os: linux
+version: 0.0
